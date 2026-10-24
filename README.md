@@ -8,8 +8,6 @@ A networked, four-player **UNO** card game with accounts, a lobby, game rooms an
 
 Final project for a network programming course (2024).
 
-<!-- TODO: add a screenshot or terminal recording of a game in progress -->
-
 ---
 
 ## Architecture
@@ -125,7 +123,7 @@ In the client, type the commands shown on each screen, e.g. `register` / `login`
 ## Credits
 
 - `unp.h`, `config.h` and `Make.defines` come from the source code of W. Richard Stevens' *UNIX Network Programming*, and the server's `select()` loop is based on the book's `select()`-based TCP server example (the `include fig01` / `end fig02` markers in `server.cpp` come from it).
-- `Timer.hpp` / `Timer.cpp` (`F2::Timer`) are taken from the "2f" 2D game engine, as stated in the file header. <!-- TODO: add a link to the original Timer source and its license -->
+- `Timer.hpp` / `Timer.cpp` (`F2::Timer`) are taken from the "2f" 2D game engine, as stated in the file header.
 
 ---
 
